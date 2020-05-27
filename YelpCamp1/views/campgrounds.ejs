@@ -1,0 +1,8 @@
+<p>This is the Campgrounds Page</p>
+
+<% campgrounds.forEach(function(campground){ %>
+    <div>
+        <%= campground.name %>
+        <img src="<%= campground.image %>"> 
+    </div>
+<% }); %> 
